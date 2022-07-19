@@ -1,0 +1,12 @@
+[package]
+name = "zkcross"
+license = "MIT AND Apache-2.0"
+keywords = ["zk", "zkSNARK", "wasm"]
+repository = "https://github.com/Riemannstein/zkCross"
+homepage = "https://github.com/Riemannstein/zkCross"
+description = "A zk bridge for WebAssembly based blockchain networks"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+wasmer = "2"
